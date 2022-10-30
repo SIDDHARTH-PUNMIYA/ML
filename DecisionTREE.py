@@ -4,7 +4,7 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.model_selection import  train_test_split
 from  sklearn import tree
 
-dataset = pd.read_csv("heart.csv")
+dataset = pd.read_csv("csv/heart.csv")
 X = dataset.iloc[:,:13]
 Y =dataset["target"]
 

@@ -8,7 +8,7 @@ from sklearn.metrics import accuracy_score,confusion_matrix,classification_repor
 from matplotlib.colors import ListedColormap
 
 
-dataset = pd.read_csv("Social_Network_Ads.csv")
+dataset = pd.read_csv("csv/Social_Network_Ads.csv")
 
 X =dataset[["Age","EstimatedSalary"]]
 Y=dataset["Purchased"]

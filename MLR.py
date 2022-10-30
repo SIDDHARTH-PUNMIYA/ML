@@ -4,7 +4,7 @@ from  sklearn.model_selection import train_test_split
 from sklearn.preprocessing import  LabelEncoder,OrdinalEncoder
 import  matplotlib.pyplot as plt
 
-data = pd.read_csv("cars.csv")
+data = pd.read_csv("csv/cars.csv")
 
 le = LabelEncoder()
 data["transmission"] = le.fit_transform(data["transmission"])

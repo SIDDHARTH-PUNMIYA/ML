@@ -9,7 +9,7 @@ c=0
 L=0.01
 epoch =2000
 
-data = pd.read_csv("data.csv")
+data = pd.read_csv("csv/data.csv")
 X= data["YearsExperience"]
 Y = data["Salary"]
 n = len(X)
